@@ -1,0 +1,43 @@
+body {
+    background-image: url('images/background.jpg');
+    background-size: 100%;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    padding: 2ww;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block;
+    color: #eef09c;
+    background-color: #3C1826;
+    padding: 1vw 2.5vw;
+    border: 0px;
+    margin: 0;
+}
+
+button:hover {
+    color: #3C1826;
+    background-color: #eef09c;
+    transition: ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+    text-shadow: 0.5vw;
+}
+
+img {
+    display: inline-block;
+    border-radius: 10vw;
+    border: 0.25vw solid #eef09c;
+    margin: 0 auto;
+    width: 17vw;
+    height: 17vw;
+    margin: 0.4vw;
+    object-fit: cover;
+}
